@@ -14,8 +14,7 @@ This repository contains research-oriented implementations of machine learning a
 
 - Representation learning for structured neural signals
 - Time–frequency and Spatial-Spectral modeling
-- Multimodal modeling concepts
-- Explainable AI in biomedical contexts
+- Explainable AI in biomedical contexts (i.e., GradCAM)
 - Scalability toward large-scale biomedical architectures
 
 ## Research Direction
