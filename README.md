@@ -1,6 +1,6 @@
 # AI for Biomedical Signal Modeling
 
-This repository contains research-oriented implementations of machine learning and deep learning pipelines for high-dimensional biomedical signal modeling.
+This repository contains research-oriented implementations of machine learning and deep learning pipelines for high-dimensional brain signal modeling.
 
 ## Repository Structure
 
