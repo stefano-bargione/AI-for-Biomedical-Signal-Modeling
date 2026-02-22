@@ -12,7 +12,7 @@ This module re-implements classical and deep learning pipelines for single-trial
   - Deep neural network architectures based on structured feature map representations:
     - Time–frequency inputs (Hybrid CNN2D-LSTM, BiLSTM, Transformer)
     - Spatial–spectral inputs (CNN3D, Separable Convolutions, Transformer Encoder)
-- AI-driven explainability analysis (Grad-CAM)
+  - AI-driven explainability analysis (Grad-CAM)
 
 ## Methodological Focus
 
