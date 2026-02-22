@@ -6,7 +6,7 @@ This module implements deep learning pipelines for single-trial EEG motor execut
 
 - Time–frequency and spatial–spectral representations (2D spectrogram-based inputs and 3D tensor-based volumes)
 - Deep learning architectures (CNN3D, Separable Convolutions, Hybrid CNN2D-LSTM, BiLSTM, Transformer Encoder)
-- Explainability analysis (Grad-CAM) for spatiotemporal and sensor-level relevance attribution
+- Explainability analysis (Grad-CAM) for spatiotemporal and sensor-level relevance attribution driving model predictions
 
 ## Methodological Focus
 
