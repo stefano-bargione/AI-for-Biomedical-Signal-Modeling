@@ -8,7 +8,7 @@ This module re-implements classical and deep learning pipelines for single-trial
 - Targeted and joint time–frequency decomposition (delta, theta, delta+theta bands)
 - Dataset construction for binary and multiclass classification tasks
 - Use of:
-  - Classical ML classifiers (Logistic Regression, SVM, XGBoost) combined with an [MNE-based sliding-window decoding approach]([url](https://mne.tools/stable/generated/mne.decoding.SlidingEstimator.html)) on 1D time-domain EEG representations
+  - Classical ML classifiers (Logistic Regression, SVM, XGBoost) combined with an [MNE-based sliding-window decoding approach](https://mne.tools/stable/generated/mne.decoding.SlidingEstimator.html) on 1D time-domain EEG representations 
   - Deep neural network architectures based on structured feature map representations:
     - Time–frequency inputs (Hybrid CNN2D-LSTM, BiLSTM, Transformer)
     - Spatial–spectral inputs (CNN3D, Separable Convolutions, Transformer Encoder)
