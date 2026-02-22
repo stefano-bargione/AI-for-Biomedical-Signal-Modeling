@@ -1,15 +1,17 @@
 # EEG Hyperscanning ERP Classification
 
-This module re-implemented Machine and Deep Learning pipelines for single-trial decoding of socio-affective event-related potentials (ERPs), with a specific focus on the P300 component in newly developed EEG-based hyperscanning social interactive paradigm.
+This module re-implemented Machine and Deep Learning pipelines adopted in the Motor Intetion Decoding challange for single-trial decoding of socio-affective event-related potentials (ERPs), with a specific focus on the P300 component in newly developed EEG-based hyperscanning social interactive paradigm.
 
 ## Core Components
 
-- Single-trial ERP extraction
-- Time–frequency Decomposition in targeted or joint frequency ranges (delta, theta and  delta + theta bands)
-- Wavelet-based feature map construction
-- Dataset Generation and 
-- Use of classical ML classifiers (Logistic Regression, SVM, XGBoost)
-- Deep Artificial Neural Network Architectures (CNN2D, BiLSTM, CNN2D_LSTM, Transformer)
+- Single-trial ERP extraction, with focus on multispectral components i.e. event-related oscillations (EROs) 
+- Time–frequency decomposition in targeted or joint frequency ranges (delta, theta and  delta + theta bands)
+- Datasets Generation for Multiclass and Binary Classification Challanges
+- Use of:
+-   1) Classical ML classifiers (Logistic Regression, SVM, XGBoost)
+-   2) Deep Artificial Neural Network Architectures according to 1D and 2D feature map representation of brain data:
+     a) Time-frequency Inputs (Hybrid CNN2D_LSTM, BiLSTM, Transformer)
+     b) Spatial-spectral Inputs (CNN3D, Separable Convolutions, Transformer Encoder)
 - AI-driven Explainability Data Analysis (i.e., Grad-CAM)
 
 ## Methodological Focus
