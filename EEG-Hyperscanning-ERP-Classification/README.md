@@ -10,8 +10,8 @@ This module re-implemented Machine and Deep Learning pipelines adopted in the Mo
 - Use of:
 -   1) Classical ML classifiers (Logistic Regression, SVM, XGBoost)
 -   2) Deep Artificial Neural Network Architectures according to 1D and 2D feature map representation of brain data:
-     a) Time-frequency Inputs (Hybrid CNN2D_LSTM, BiLSTM, Transformer)
-     b) Spatial-spectral Inputs (CNN3D, Separable Convolutions, Transformer Encoder)
+     - Time-frequency Inputs (Hybrid CNN2D_LSTM, BiLSTM, Transformer)
+     - Spatial-spectral Inputs (CNN3D, Separable Convolutions, Transformer Encoder)
 - AI-driven Explainability Data Analysis (i.e., Grad-CAM)
 
 ## Methodological Focus
