@@ -1,21 +1,21 @@
 # EEG Motor Decoding
 
-This module implements a Deep Learning Pipeline for single-trial EEG motor execution and motor imagery decoding, integrating explainability techniques (i.e., GradCAM algorithm) for model interpretation.
+This module implements deep learning pipelines for single-trial EEG motor execution and motor imagery decoding, integrating explainability techniques (Grad-CAM) for model interpretation.
 
 ## Core Components
 
-- Time–frequency and spatial–spectral representations (i.e. spectrogram-based neural data inputs)
-- Deep learning architectures (CNN3D, Separable Convolutions, CNN2D-LSTM, BiLSTM, Transformer Encoder)
-- Explainability analysis (Grad-CAM) for spatiotemporal and spectral attribution
+- Time–frequency and spatial–spectral representations (2D spectrogram-based inputs and 3D tensor-based volumes)
+- Deep learning architectures (CNN3D, Separable Convolutions, Hybrid CNN2D-LSTM, BiLSTM, Transformer Encoder)
+- Explainability analysis (Grad-CAM) for spatiotemporal and sensor-level relevance attribution
 
 ## Methodological Focus
 
 - High-dimensional neural decoding
-- Low-sample-size learning regimes
-- Structured temporal dependencies
+- Learning in low-sample-size regimes
+- Structured temporal dependency modeling
 - Inter-subject variability handling
-- Model interpretability in biomedical contexts
+- Interpretability constraints in biomedical AI
 
 ## Research Context
 
-This project served as a methodological testbed for scalable neural signal modeling architectures, with the objective of generalizing toward other multimodal biomedical representation learning systems.
+This project serves as a methodological testbed for scalable neural signal modeling architectures, with the objective of generalizing toward multimodal biomedical representation learning systems.
