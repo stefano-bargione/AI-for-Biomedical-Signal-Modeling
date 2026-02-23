@@ -1,6 +1,6 @@
 # EEG Hyperscanning ERP Classification
 
-This module re-implements classical and deep learning pipelines for single-trial decoding of socio-affective event-related potentials (ERPs), with a specific focus on the P300 component within a new developed EEG-based hyperscanning social interaction paradigm.
+This module re-implements classical and deep learning pipelines for single-trial decoding of event-related potentials (ERPs) associated to higher-order socio-affective states (empathy), with a specific focus on the P300 component within a new EEG-based hyperscanning social interaction paradigm, developed under my research collaboration as PhD visiting researcher at Neuroelectrical Imaging and BCI Laboratory [NeiLab](https://www.hsantalucia.it/laboratorio-immagini-neuroelettriche-interfacce-cervello-computer) located in Fondazione Santa Lucia, Rome 
 
 ## Core Components
 
