@@ -11,7 +11,7 @@ This module re-implements classical and deep learning pipelines for single-trial
   - Classical ML classifiers (Logistic Regression, SVM, XGBoost) combined with an [MNE-based sliding-window decoding approach](https://mne.tools/stable/generated/mne.decoding.SlidingEstimator.html) on 1D time-domain EEG representations 
   - Deep neural network architectures based on structured feature map representations:
     - Time–frequency inputs (Hybrid CNN2D-LSTM, BiLSTM, Transformer)
-    - Spatial–spectral inputs (CNN3D, Separable Convolutions, Transformer Encoder)
+    - Spatial–spectral inputs (CNN3D, Separable Convolutions, Transformer)
   - AI-driven explainability analysis (Grad-CAM)
 
 ## Methodological Focus
