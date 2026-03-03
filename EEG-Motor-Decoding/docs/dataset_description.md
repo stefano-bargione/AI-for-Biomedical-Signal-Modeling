@@ -45,11 +45,9 @@ Signal[run_idx]["Subject_<ID>_Signal"][0] → np.ndarray (time_samples, channels
 
 **Annotations** (Labels) mirrors the structure of Signal:
 
-Annotations → list of length 12
-
-Each element Annotations[run_idx] is a dict containing all subjects for that run
-
-Subject key: Subject_<ID>_Annotations
+- Annotations → list of length 12
+- Each element Annotations[run_idx] is a dict containing all subjects for that run
+  - Subject key: Subject_<ID>_Annotations
 
 Example:
 Annotations[0]["Subject_100_Annotations"]
