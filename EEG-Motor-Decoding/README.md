@@ -16,5 +16,5 @@ This module implements deep learning pipelines for single-trial EEG motor execut
 ## Research Context
 This project serves as a methodological testbed for scalable neural signal modeling architectures, with the objective of generalizing toward multimodal biomedical representation learning systems.
 
-## PhysioNet EDF metadata:
+## PhysioNet EDF metadata
 The curated .mat export does not always provide channel-name strings in a clean MNE-compatible format. For reproducibility, this project optionally reads metadata (sampling frequency and raw channel strings) from a single EDF file from the original PhysioNet EEGMMIDB release (e.g., S001R01.edf). This EDF is used only to retrieve sfreq and channel names; all modeling uses the curated .mat signals.
